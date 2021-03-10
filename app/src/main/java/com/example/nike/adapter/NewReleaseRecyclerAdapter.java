@@ -47,7 +47,7 @@ public class NewReleaseRecyclerAdapter extends RecyclerView.Adapter<NewReleaseRe
     @Override
     public int getItemCount() {
 
-        return 0;
+        return newReleaseList.size();
     }
 
     public static class NewReleaseViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
