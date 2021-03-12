@@ -23,19 +23,19 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        getSupportActionBar().setHomeButtonEnabled(true);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_nike);
+//        getSupportActionBar().setHomeButtonEnabled(true);
+//        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+//        getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_nike);
 
         recyclerView = findViewById(R.id.recyclerView);
 
         newReleaseList = new ArrayList<>();
 
-        NewRelease product1 = new NewRelease("","","","");
-        NewRelease product2 = new NewRelease("","","","");
-        NewRelease product3 = new NewRelease("","","","");
-        NewRelease product4 = new NewRelease("","","","");
-        NewRelease product5 = new NewRelease("","","","");
+        NewRelease product1 = new NewRelease("patu basket","https://androidappsforyoutube.s3.ap-south-1.amazonaws.com/nikestore/shoe1.png","Mens Shoe","300.000");
+        NewRelease product2 = new NewRelease("patu basket","https://androidappsforyoutube.s3.ap-south-1.amazonaws.com/nikestore/shoe2.png","Mens Shoe","300.000");
+        NewRelease product3 = new NewRelease("patu basket","https://androidappsforyoutube.s3.ap-south-1.amazonaws.com/nikestore/shoe3.png","Mens Shoe","300.000");
+        NewRelease product4 = new NewRelease("patu basket","https://androidappsforyoutube.s3.ap-south-1.amazonaws.com/nikestore/shoe4.png","Mens Shoe","300.000");
+        NewRelease product5 = new NewRelease("patu basket","https://androidappsforyoutube.s3.ap-south-1.amazonaws.com/nikestore/shoe5.png","Mens Shoe","300.000");
 
         newReleaseList.add(product1);
         newReleaseList.add(product2);

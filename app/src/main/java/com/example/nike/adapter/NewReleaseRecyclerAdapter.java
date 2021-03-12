@@ -10,6 +10,7 @@ import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.bumptech.glide.Glide;
 import com.example.nike.R;
 import com.example.nike.model.NewRelease;
 
@@ -41,6 +42,7 @@ public class NewReleaseRecyclerAdapter extends RecyclerView.Adapter<NewReleaseRe
         holder.itemName.setText(newReleaseList.get(position).getName());
         holder.price.setText(newReleaseList.get(position).getPrice());
         holder.gender.setText(newReleaseList.get(position).getGender());
+        Glide.with(context).load(newReleaseList.get(position).getImageurl()).into(holder.itemImage);
 
     }
 
