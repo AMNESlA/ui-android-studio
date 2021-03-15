@@ -1,6 +1,7 @@
 package com.example.nike.adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,6 +12,7 @@ import android.widget.TextView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
+import com.example.nike.ProductDetail;
 import com.example.nike.R;
 import com.example.nike.model.NewRelease;
 
@@ -44,6 +46,15 @@ public class NewReleaseRecyclerAdapter extends RecyclerView.Adapter<NewReleaseRe
         holder.gender.setText(newReleaseList.get(position).getGender());
         Glide.with(context).load(newReleaseList.get(position).getImageurl()).into(holder.itemImage);
 
+        //ganti halaman brow
+        holder.itemView.setOnClickListener((view) -> {
+
+            Intent i = new Intent(context, ProductDetail.class);
+            i.putExtra("name", newReleaseList.get(position).getName());
+            i.putExtra("price", newReleaseList.get(position).getPrice());
+            context.startActivity(i);
+
+        });
     }
 
     @Override
