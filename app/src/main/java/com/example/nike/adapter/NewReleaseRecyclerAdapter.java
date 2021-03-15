@@ -52,6 +52,7 @@ public class NewReleaseRecyclerAdapter extends RecyclerView.Adapter<NewReleaseRe
             Intent i = new Intent(context, ProductDetail.class);
             i.putExtra("name", newReleaseList.get(position).getName());
             i.putExtra("price", newReleaseList.get(position).getPrice());
+            i.putExtra("rating", newReleaseList.get(position).getRating());
             context.startActivity(i);
 
         });

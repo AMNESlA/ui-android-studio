@@ -37,11 +37,11 @@ public class MainActivity extends AppCompatActivity {
         newReleaseList = new ArrayList<>();
         bestSellerList = new ArrayList<>();
 
-        NewRelease product1 = new NewRelease("patu basket","https://androidappsforyoutube.s3.ap-south-1.amazonaws.com/nikestore/shoe1.png","Mens Shoe","300.000");
-        NewRelease product2 = new NewRelease("patu basket","https://androidappsforyoutube.s3.ap-south-1.amazonaws.com/nikestore/shoe2.png","Mens Shoe","300.000");
-        NewRelease product3 = new NewRelease("patu basket","https://androidappsforyoutube.s3.ap-south-1.amazonaws.com/nikestore/shoe3.png","Mens Shoe","300.000");
-        NewRelease product4 = new NewRelease("patu basket","https://androidappsforyoutube.s3.ap-south-1.amazonaws.com/nikestore/shoe4.png","Mens Shoe","300.000");
-        NewRelease product5 = new NewRelease("patu basket","https://androidappsforyoutube.s3.ap-south-1.amazonaws.com/nikestore/shoe5.png","Mens Shoe","300.000");
+        NewRelease product1 = new NewRelease("patu basket","https://androidappsforyoutube.s3.ap-south-1.amazonaws.com/nikestore/shoe1.png","Mens Shoe","300.000","4.5");
+        NewRelease product2 = new NewRelease("patu basket","https://androidappsforyoutube.s3.ap-south-1.amazonaws.com/nikestore/shoe2.png","Mens Shoe","300.000","4.1");
+        NewRelease product3 = new NewRelease("patu basket","https://androidappsforyoutube.s3.ap-south-1.amazonaws.com/nikestore/shoe3.png","Mens Shoe","300.000","4.4");
+        NewRelease product4 = new NewRelease("patu basket","https://androidappsforyoutube.s3.ap-south-1.amazonaws.com/nikestore/shoe4.png","Mens Shoe","300.000","4.2");
+        NewRelease product5 = new NewRelease("patu basket","https://androidappsforyoutube.s3.ap-south-1.amazonaws.com/nikestore/shoe5.png","Mens Shoe","300.000","4.2");
 
         newReleaseList.add(product1);
         newReleaseList.add(product2);

@@ -39,6 +39,7 @@
                 android:layout_marginTop="24dp"
                 android:fontFamily="@font/segoesemibold"
                 android:text="TextView"
+                android:textColor="#000000"
                 app:layout_constraintStart_toEndOf="@+id/shieimageView"
                 app:layout_constraintTop_toTopOf="@+id/shieimageView" />
 
@@ -49,6 +50,7 @@
                 android:layout_marginTop="32dp"
                 android:fontFamily="@font/segoebold"
                 android:text="TextView"
+                android:textColor="#0E0E0E"
                 android:textSize="16sp"
                 app:layout_constraintStart_toStartOf="@+id/name"
                 app:layout_constraintTop_toBottomOf="@+id/name" />
@@ -71,6 +73,7 @@
                 android:layout_marginEnd="24dp"
                 android:fontFamily="@font/segoeregular"
                 android:text="4.8"
+                android:textColor="#0E0E0E"
                 android:textSize="16sp"
                 app:layout_constraintBottom_toBottomOf="@+id/pricee"
                 app:layout_constraintEnd_toEndOf="parent"

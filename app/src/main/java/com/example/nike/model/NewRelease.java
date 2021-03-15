@@ -7,6 +7,16 @@ public class NewRelease {
     private String gender;
     private String price;
 
+    public String getRating() {
+        return rating;
+    }
+
+    public void setRating(String rating) {
+        this.rating = rating;
+    }
+
+    private String rating;
+
     public String getName() {
         return name;
     }
@@ -40,11 +50,12 @@ public class NewRelease {
     }
 
 
-    public NewRelease(String name, String imageurl, String gender, String price) {
+    public NewRelease(String name, String imageurl, String gender, String price, String rating) {
         this.name = name;
         this.imageurl = imageurl;
         this.gender = gender;
         this.price = price;
+        this.rating = rating;
     }
 
 
